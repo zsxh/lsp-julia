@@ -7,7 +7,7 @@
 (defconst lsp-julia-base (file-name-directory load-true-file-name))
 
 (defgroup lsp-julia nil
-  "Interaction with LanguageServer.jl LSP server via eglot"
+  "Interaction with LanguageServer.jl LSP server via lsp-mode"
   :prefix "lsp-julia-"
   :group 'applications)
 
