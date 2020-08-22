@@ -1,4 +1,4 @@
-;;; lsp-julia.el --- Julia support for eglot -*- lexical-binding: t; -*-
+;;; lsp-julia.el --- Julia support for lsp-mode -*- lexical-binding: t; -*-
 
 ;; (require 'cl-generic)
 (require 'lsp-mode)
