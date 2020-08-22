@@ -5,3 +5,8 @@ A elgot-jl clone project, but use lsp-mode.
 The first time ~lsp~ is run, the Julia language server will
 be downloaded and installed into the default depot (e.g. =~/.julia=)
 in its own isolated project environment. This may take a long time...
+
+#+begin_src emacs-lisp
+  (require 'lsp-julia)
+  (add-hook 'julia-mode-hook 'lsp)
+#+end_src
