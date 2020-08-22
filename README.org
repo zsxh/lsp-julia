@@ -1,6 +1,6 @@
 * lsp-julia
 
-A elgot-jl clone project, but use lsp-mode.
+A [[https://github.com/non-Jedi/eglot-jl][elgot-jl]] clone, but use lsp-mode.
 
 The first time ~lsp~ is run, the Julia language server will
 be downloaded and installed into the default depot (e.g. =~/.julia=)
