@@ -1,5 +1,7 @@
 ;;; lsp-julia.el --- Julia support for lsp-mode -*- lexical-binding: t; -*-
 
+;; Origin Author: Adam Beckmeyer
+
 ;; (require 'cl-generic)
 (require 'lsp-mode)
 ;; (require 'project)
