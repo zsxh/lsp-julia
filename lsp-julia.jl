@@ -32,6 +32,6 @@ push!(LOAD_PATH, "@")
 
 using LanguageServer, SymbolServer
 
-@info "Running language server" env=Base.load_path()[1] src_path project_path depot_path
+@info "Running language server" env = Base.load_path()[1] src_path project_path depot_path
 server = LanguageServerInstance(stdin, stdout, project_path, depot_path)
 run(server)
